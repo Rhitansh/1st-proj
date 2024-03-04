@@ -1,0 +1,131 @@
+*
+{
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body
+{
+    /* border: 2px solid green; */
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bolder;
+  font-variant: small-caps;
+  font-size: larger;
+  font-style: oblique;
+
+}
+
+div{
+
+    /* border: 2px solid red; */
+margin: 10px;
+}
+
+.outer
+{
+display: flex;
+width: 100vw;
+
+}
+
+.inner
+{
+border: 2px solid black;
+}
+
+.inner-1
+{
+ border: 2px solid yellow;
+
+height: 100vh;
+}
+
+.inner-1:hover{
+    background-color: pink;
+   
+}
+.inner-2
+{
+   img{
+    height: 30vh;
+   border-radius: 80%;
+   
+    border: 10px solid skyblue;
+   };
+
+}
+.inner-2:hover
+{ background-color: aliceblue;
+    background-blend-mode: color-burn;
+}
+
+.inner-3
+{
+  height: 100vh;
+    /* border: 2px dotted green; */
+
+}
+img{
+    /* border: 10px solid red; */
+    height: 50%;
+    width:70%;
+
+    justify-content: center;
+align-items: center;
+}
+#about
+{
+    height: 50%;
+    width: 90%;
+    background-color: rgba(201, 255, 255, 0.84);
+    border: 2px solid red;
+}
+#about:hover
+{
+    background-color: pink;
+    color: red;
+}
+
+#how
+{
+    height: 50%;
+    width: 90%;
+    border: 2px solid green;
+background-color: rgba(103, 206, 244, 0.208);
+}
+#how:hover{
+    background-color:pink
+    
+}
+.inner-4
+{
+    height: 100vh;
+    /* border: 2px dotted green; */
+}
+#what{
+    height: 50%;
+    width: 90%;
+    background-color: rgba(103, 206, 244, 0.208);
+    border: 2px solid green;
+}
+#what:hover{
+    background-color: pink;
+    color: red;
+}
+
+#contact
+{
+    height: 50%;
+    width:90%;
+    background-color: rgba(201, 255, 255, 0.84);
+    border: 2px solid red;
+}
+#contact:hover
+{
+    background-color: pink;
+    color: red;
+
+}
